@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>5.10 Random Numbers</h1>
+  <section>
+    <h2>Notes</h2>
+    <h3>Intro</h3>
+    <p>JavaScript provides a number of functions that are useful for generating random numbers.
+      Math.random() is a function that returns a pseudo-random number between 0 and 1, not including 1
+      Math.floor() is a function that takes a decimal number and rounds it down - chops off the decimal
+    </p>
+    <button onclick="alert(Math.random())">test <code>math.random()</code></button>
+    <button onclick="alert(Math.floor())">test <code>math.floor()</code></button>
+    <p> To produce a random integer from min value to max value (including the min and max) use this calculation
+      Math.floor(math.random() * (max + 1)) + min
+    </p>
+    <h4>Example</h4>
+    <p>
+      generate a random number from 1 to 10 and atore it in a variable var randNum
+    </p>
+    <button onclick="example()">generate a random num from 1 to 10</button>
+    <script>
+      function example() {
+        var randNum = Math.floor(Math.random() * 10) + 1;
+        alert(randNum)
+      }
+
+    </script>
+  </section>
+</body>
+
+</html>
