@@ -19,5 +19,10 @@ function lessThan100(num1, num2) {
 }
 console.log(lessThan100(30, 60))
 //problem #3
-function areaOfTriangle(())
-
+function areaOfTriangle(base, height){
+  var area = (base * height / .5);
+  return area;
+}
+console.log(areaOfTriangle(6,10))
+//problem #4 
+//...
