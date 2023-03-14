@@ -16,8 +16,9 @@ function problem1() {
 
 
 function problem2(){
-  var numList =["2","3","5","7","11"];
-  var  = numList[];
-           
-  alert()
+  var numList =[2,3,5,7,11];
+  console.log(numList[0]);
+  console.log(numList[2]);    
+  console.log(numList[4]);        
+  
 }

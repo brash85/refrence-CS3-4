@@ -25,4 +25,3 @@ function areaOfTriangle(base, height){
 }
 console.log(areaOfTriangle(6,10))
 //problem #4 
-//...
