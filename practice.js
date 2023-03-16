@@ -25,3 +25,14 @@ function areaOfTriangle(base, height){
 }
 console.log(areaOfTriangle(6,10))
 //problem #4 
+function nextEven(num1){
+  var nextNum = num1;
+  if(num1 % 2 ==0){
+    nextNum = num1 + 2;
+    return nextNum;
+  }else{
+    nextNum = num1 +1;
+    return nextNum 
+  }
+}
+//problem #5..
